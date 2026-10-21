@@ -22,5 +22,6 @@ public class TestProceduralGeneration : MonoBehaviour
     {
         var element = Rooms[Random.Range(0, 1)];
         Vector3 spawnPosition = transform.position + new Vector3(Range * width, 1f, 1f);
+        Instantiate(element, spawnPosition, Quaternion.identity);
     }
 }
