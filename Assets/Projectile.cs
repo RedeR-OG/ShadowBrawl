@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public LayerMask enemy;
     public enum ProjectileType
     {
         Normal, Heavy, Explosion
