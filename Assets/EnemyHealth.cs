@@ -10,6 +10,9 @@ public class EnemyHealth : MonoBehaviour
         
        if (health <= 0)
         {
+            Souldrop souldrop = GetComponent<Souldrop>();
+            if (souldrop != null)
+                souldrop.DroupSoul();
             Destroy(gameObject);
         }
     }
