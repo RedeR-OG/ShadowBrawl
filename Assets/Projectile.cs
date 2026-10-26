@@ -6,7 +6,7 @@ public class Projectile : MonoBehaviour
     public LayerMask enemy;
     public enum ProjectileType
     {
-        Normal, Heavy, Explosion
+        Normal = 1, Heavy, Explosion
     }
     [Header("Projectile Settings")]
     public ProjectileType type;

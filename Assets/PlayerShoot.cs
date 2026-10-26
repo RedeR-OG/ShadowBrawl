@@ -9,7 +9,7 @@ public class PlayerShoot : MonoBehaviour
     public Transform firepoint;
     public int maxMana = 100;
     public int Mana = 100;
-    private int selectedProjectile = 1;
+    private Projectile.ProjectileType selectedProjectile = Projectile.ProjectileType.Normal;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void onShoot(InputAction.CallbackContext ctx)
     {
@@ -17,36 +17,42 @@ public class PlayerShoot : MonoBehaviour
             return;
         Shoot();
     }
+    public void Update()
+    {
+        maxMana = 100 + SoulPickup.totalSouls;
+    }
 
     // Update is called once per frame
     public void OnNormalShot(InputAction.CallbackContext ctx)
     {
         if (ctx.performed)
-            selectedProjectile = 1;
+            selectedProjectile = Projectile.ProjectileType.Normal;
     }
     public void OnHeavyShot(InputAction.CallbackContext ctx)
     {
         if (ctx.performed)
-            selectedProjectile = 2;
+            selectedProjectile = Projectile.ProjectileType.Heavy;
     }
     public void OnExplosionShot(InputAction.CallbackContext ctx)
     {
         if (ctx.performed)
-            selectedProjectile = 3;
+            selectedProjectile = Projectile.ProjectileType.Explosion;
     }
      void Shoot ()
     {
         GameObject projectile = normalProjectile;
             int manaCost = 5;
 
-        if (selectedProjectile == 2)
+        if (selectedProjectile == Projectile.ProjectileType.Heavy)
         {
             projectile = heavyProjectile;
+            manaCost = 15;
         }
 
-        else if (selectedProjectile == 3)
+        else if (selectedProjectile == Projectile.ProjectileType.Explosion)
         {
             projectile = exsplosionProjectile;
+            manaCost = 10;
         }
         if (Mana < manaCost || projectile == null || firepoint == null)
             return;
