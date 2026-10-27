@@ -4,31 +4,33 @@ using UnityEngine;
 public class Interaction : MonoBehaviour
 {
     public bool gambleCollide = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        CompareTag("GambleZone");
+        if (col.CompareTag("GambleZone"))
         {
-            
             gambleCollide = true;
-
-            if (gambleCollide == true)
-            {
-                Debug.Log("gamble zone here");
-            //    KeyCode.G;
-            }
         }
     }
 
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("GambleZone"))
+        {
+            gambleCollide = false;
+        }
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (gambleCollide == true && Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log("gamble zone here");
+            //GetComponents(PlayerShoot)
+        }
     }
 }
