@@ -111,7 +111,8 @@ MonoBehaviour:
   Range: 5
   Rooms:
   - {fileID: 6641187252312938294}
-  - {fileID: 0}
+  - {fileID: 9146712111655455071, guid: 339acded6a4bf21468c9382c0f751932, type: 3}
+  - {fileID: 257001211646578189, guid: 2a9ad099282aee446a27c9a93428da16, type: 3}
 --- !u!61 &8582633455266030757
 BoxCollider2D:
   m_ObjectHideFlags: 0
