@@ -43,7 +43,7 @@ public class Interaction : MonoBehaviour
                 SoulPickup.totalSouls -= 10;
                 HPgamble = Random.Range(0, 3);
                 Debug.Log("HP+ " + HPgamble);
-                PlayerHP.currentHP += HPgamble;
+                GetComponent<PlayerHP>().currentHP += HPgamble;
                 
             }
             if (Gamba == 2)

@@ -19,15 +19,15 @@ public class hpbar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerHp.nowHP >= 3)
+        if (playerHp.currentHP >= 3)
         {
             hpBar.sprite = hp3;
         }
-        else if (playerHp.nowHP == 2)
+        else if (playerHp.currentHP == 2)
         {
             hpBar.sprite = hp2;
         }
-        else if (playerHp.nowHP == 1)
+        else if (playerHp.currentHP == 1)
         {
             hpBar.sprite = hp1;
         }

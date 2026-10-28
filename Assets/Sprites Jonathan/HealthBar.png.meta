@@ -57,11 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
   spritePixelsToUnits: 20
-=======
-  spritePixelsToUnits: 32
->>>>>>> 0281dae0532be5cda0dfe8f2122a569c13dd352c
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,10 +145,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 637ab99e2a1e1dd80800000000000000
-      internalID: -8227546954408941770
+      spriteID: fe43e71957adb884eaf2a97986424a2b
+      internalID: -1309822504
       vertices: []
       indices: 
       edges: []
@@ -173,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ef60563dc75ca409415965ad13ec03
-      internalID: 689087401
+      spriteID: 8591183a122833a48a1899d5f7b32f1e
+      internalID: -1079602378
       vertices: []
       indices: 
       edges: []
@@ -195,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b85aa31fc42250f44abdf7fa41e53121
-      internalID: 1411093363
+      spriteID: 0a961f9863e00eb42ab8ab5b329bbafe
+      internalID: -1499233105
       vertices: []
       indices: 
       edges: []
@@ -217,30 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe4c529352000949b85465f707dae3a
-      internalID: 738101532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HealthBar_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d5dc73deabe03a4b990dfe347911ebd
-      internalID: -1493634025
+      spriteID: e8cfba70f49fd18428e98f84c4724acb
+      internalID: 1805675831
       vertices: []
       indices: 
       edges: []
@@ -249,11 +223,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 7b6e984846cd65a4b90bad3ff53aa55b
-=======
-    spriteID: f691caccbbcf920498aa916eae71df73
->>>>>>> 0281dae0532be5cda0dfe8f2122a569c13dd352c
+    spriteID: 02452849b4c3e3b49aa9593d6b79b61c
     internalID: 0
     vertices: []
     indices: 
@@ -265,16 +235,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      HealthBar_0: -8227546954408941770
-<<<<<<< HEAD
-      HealthBar_1: 689087401
-      HealthBar_2: 1411093363
-      HealthBar_3: 738101532
-=======
-      HealthBar_1: -3178617384780871938
-      HealthBar_2: 5032351099696674128
-      HealthBar_3: -1493634025
->>>>>>> 0281dae0532be5cda0dfe8f2122a569c13dd352c
+      HealthBar_0: -1309822504
+      HealthBar_1: -1079602378
+      HealthBar_2: -1499233105
+      HealthBar_3: 1805675831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
