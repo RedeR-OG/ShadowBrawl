@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3732886712275132965}
   - component: {fileID: 8675787022313265964}
   - component: {fileID: 5150244845513340134}
-  - component: {fileID: 2546924102111884455}
   m_Layer: 0
   m_Name: lamp_0
   m_TagString: Untagged
@@ -168,18 +167,6 @@ MonoBehaviour:
       type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_Cache: []
---- !u!114 &2546924102111884455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216516100262988302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd74c9afb2a64174492618bb4d915911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
 --- !u!1 &1658201967467708496
 GameObject:
   m_ObjectHideFlags: 0
