@@ -1,0 +1,18 @@
+{
+  "synth_type": "Glitchr",
+  "version": "1.0.0",
+  "file_name": "MaybeSave1",
+  "params": {
+    "masterVolume": 0.31,
+    "seed": 0.9093048479236194,
+    "duration": 3.75,
+    "pitch": 0.6711903185383302,
+    "fragment": 0.8141518447393674,
+    "repeat": 0.6653940879524737,
+    "chaos": 0.5302099927836988,
+    "dropout": 0.00809359318981362,
+    "crush": 0.268786087213273,
+    "rate": 0.24104511243047277,
+    "mode": 6
+  }
+}

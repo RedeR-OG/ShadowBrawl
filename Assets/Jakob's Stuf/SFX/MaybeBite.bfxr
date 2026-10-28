@@ -1,0 +1,18 @@
+{
+  "synth_type": "Glitchr",
+  "version": "1.0.0",
+  "file_name": "MaybeBite",
+  "params": {
+    "masterVolume": 0.12,
+    "seed": 1,
+    "duration": 0.24,
+    "pitch": 0.14,
+    "fragment": 0.29,
+    "repeat": 0.94,
+    "chaos": 1,
+    "dropout": 0.37,
+    "crush": 0,
+    "rate": 0.81,
+    "mode": 4
+  }
+}
