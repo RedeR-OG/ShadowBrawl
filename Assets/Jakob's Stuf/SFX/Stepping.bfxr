@@ -1,0 +1,13 @@
+{
+  "synth_type": "Footsteppr",
+  "version": "1.0.0",
+  "file_name": "Sfx",
+  "params": {
+    "masterVolume": 0.5,
+    "terrain": 3,
+    "heel": 0.04,
+    "roll": 0.85,
+    "ball": 0.34,
+    "swiftness": 0.6
+  }
+}

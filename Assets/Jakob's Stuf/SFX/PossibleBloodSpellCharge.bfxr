@@ -1,0 +1,20 @@
+{
+  "synth_type": "Crittr",
+  "version": "1.0.0",
+  "file_name": "AngryBlob1",
+  "params": {
+    "masterVolume": 0.5,
+    "seed": 0.2,
+    "voice": 3,
+    "duration": 1,
+    "pitch": 0.03,
+    "size": 0.96,
+    "morph": 0.65,
+    "calls": 4,
+    "gap": 0.15,
+    "contour": -0.88,
+    "growl": 0.99,
+    "breath": 0.08,
+    "flutter": 0.61
+  }
+}
