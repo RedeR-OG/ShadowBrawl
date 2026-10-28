@@ -25,19 +25,23 @@ public class rangboi : MonoBehaviour
         {
             charging = false;
             chargeTimer = 0;
-            
+
         }
 
         if (!charging)
         {
             charging = true;
             chargeTimer = 0;
+
         }
         chargeTimer += Time.deltaTime;
 
         if (chargeTimer >= chargeTime)
         {
-            Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, Mathf.Atan2(player.position.y - firePoint.position.y, player.position.x - firePoint.position.x));
+            chargeTimer = 0;
+            charging = false;
+            Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, Mathf.Atan2(player.position.y - firePoint.position.y, player.position.x - firePoint.position.x) * Mathf.Rad2Deg));
         }
+
     }
 }
