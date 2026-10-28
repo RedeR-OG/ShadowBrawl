@@ -4,9 +4,13 @@ using UnityEngine;
 public class Interaction : MonoBehaviour
 {
     public bool gambleCollide = false;
+    public int HPgamble;
+
     void Start()
     {
-        
+        GetComponent<PlayerShoot>();
+        GetComponent<PlayerHP>();
+        GetComponent<SoulPickup>();
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -14,6 +18,7 @@ public class Interaction : MonoBehaviour
         if (col.CompareTag("GambleZone"))
         {
             gambleCollide = true;
+            Debug.Log("gamble enter");
         }
     }
 
@@ -22,6 +27,7 @@ public class Interaction : MonoBehaviour
         if (col.CompareTag("GambleZone"))
         {
             gambleCollide = false;
+            Debug.Log("gamble exit");
         }
     }
 
@@ -29,8 +35,9 @@ public class Interaction : MonoBehaviour
     {
         if (gambleCollide == true && Input.GetKeyDown(KeyCode.G))
         {
-            Debug.Log("gamble zone here");
-            //GetComponents(PlayerShoot)
+            HPgamble = Random.Range(0, 3);
+            Debug.Log("HP+ " + HPgamble);
+            
         }
     }
 }
