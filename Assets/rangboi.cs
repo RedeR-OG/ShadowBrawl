@@ -19,6 +19,7 @@ public class rangboi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance > range)

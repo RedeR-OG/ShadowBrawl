@@ -7,7 +7,7 @@ public class soulcon : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        SoulPickup.totalSouls = 0;
     }
 
     // Update is called once per frame
