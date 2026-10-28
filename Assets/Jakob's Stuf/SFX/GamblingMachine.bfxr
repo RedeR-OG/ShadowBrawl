@@ -1,0 +1,18 @@
+{
+  "synth_type": "Glitchr",
+  "version": "1.0.0",
+  "file_name": "GamblingMachine",
+  "params": {
+    "masterVolume": 0.36,
+    "seed": 0.7530006172756174,
+    "duration": 4,
+    "pitch": 0.9045922855198565,
+    "fragment": 0.7264085379970048,
+    "repeat": 0.910216962651115,
+    "chaos": 0.7652683450075368,
+    "dropout": 0.1555439082486113,
+    "crush": 0.0356988312016413,
+    "rate": 0.0070535336850108266,
+    "mode": 3
+  }
+}
