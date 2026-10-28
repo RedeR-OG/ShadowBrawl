@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5300045262708011961}
   - component: {fileID: 7669127335529544910}
+  - component: {fileID: -2552575139997636374}
+  - component: {fileID: -8754743510596353568}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -92,3 +94,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &-2552575139997636374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9146712111655455071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06cb4445e0e78324ea59e5ad487e8430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TestProceduralGeneration
+  width: 5
+  height: 5
+  Range: 5
+  Rooms:
+  - {fileID: 257001211646578189, guid: 2a9ad099282aee446a27c9a93428da16, type: 3}
+  - {fileID: 6641187252312938294, guid: d9d433a4037e69c46b933386f7359611, type: 3}
+  - {fileID: 9146712111655455071}
+  Enemies:
+  - {fileID: 2182085329872138026, guid: ad6d5e4ce9ab6ab489e1db9bae443f96, type: 3}
+  BaseEnemyCount: 1
+--- !u!61 &-8754743510596353568
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9146712111655455071}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.21133333}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.28866667}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
