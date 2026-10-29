@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class PlayerPunch : MonoBehaviour
 {
     public int damage = 1;
     public float punchRange = 2f;
     public LayerMask enemy;
+    public PlayerShoot playerShoot;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void OnAttack(InputAction.CallbackContext ctx)
     {
         if (!ctx.performed) return;
@@ -17,11 +18,15 @@ public class PlayerPunch : MonoBehaviour
             if (hit.collider.TryGetComponent(out EnemyHealth target))
             {
                 target.TakeDamage(damage);
+
+                if (playerShoot != null)
+                {
+                    playerShoot.RestoreMana(10);
+                }
             }
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
 
