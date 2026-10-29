@@ -95,6 +95,7 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+<<<<<<< HEAD
                 },
                 {
                     "name": "Shoot",
@@ -135,6 +136,8 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+=======
+>>>>>>> 8ba3cf62495ddabe40e337c3120bf761d6cd7664
                 }
             ],
             "bindings": [
