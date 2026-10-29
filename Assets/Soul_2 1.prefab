@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1899953415191842923}
   - component: {fileID: 4406661633620229552}
   - component: {fileID: 8107149984194443270}
-  - component: {fileID: 379462502538250503}
   m_Layer: 7
   m_Name: Soul_2 1
   m_TagString: Untagged
@@ -146,7 +145,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5048234, y: 0.45357442}
-    oldSize: {x: 0.46666667, y: 0.53333336}
+    oldSize: {x: 0.5833333, y: 0.6666667}
     newSize: {x: 1.4, y: 1.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -154,25 +153,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.46666667, y: 0.53333336}
   m_EdgeRadius: 0
---- !u!95 &379462502538250503
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8401187427253067671}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6514d2c6d995c084da047d6ba16f9d71, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0

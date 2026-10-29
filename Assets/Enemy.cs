@@ -33,7 +33,10 @@ public class Enemy : MonoBehaviour
 
 
         
-        
+        if (distance > aggroRange)
+        {
+            return;
+        }
         if (distance > attackRange)
         {
             GetComponent<Rigidbody2D>().linearVelocity = (playerPosition - enemyPosition).normalized * moveSpeed;

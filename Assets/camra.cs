@@ -15,6 +15,8 @@ public class camra : MonoBehaviour
         healthOffset = healthBar.position - transform.position;
         soulOffset = soulConter.position - transform.position;
         manaOffset = manaBar.position - transform.position;
+
+        Screen.SetResolution(1920, 1080,true);
     }
 
     // Update is called once per frame
