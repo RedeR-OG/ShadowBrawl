@@ -1356,6 +1356,30 @@ PrefabInstance:
       propertyPath: playerSprite
       value: 
       objectReference: {fileID: 1522380209}
+    - target: {fileID: 8086777567550682097, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: playerShoot
+      value: 
+      objectReference: {fileID: 1522380203}
+    - target: {fileID: 8605585162676509816, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 3179115d05812da4d86ae731c74f23fb, type: 3}
+    - target: {fileID: 8605585162676509816, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605585162676509816, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1522380212}
+    - target: {fileID: 8605585162676509816, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605585162676509816, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerPunch, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1380,6 +1404,17 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2529372427166496069, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
   m_PrefabInstance: {fileID: 1442300492}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1522380212 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8086777567550682097, guid: bba2765d1be4a6c4aa159c0bb16b4baf, type: 3}
+  m_PrefabInstance: {fileID: 1442300492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d398514addd16449001fa7e2f0bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPunch
 --- !u!1 &1729014297
 GameObject:
   m_ObjectHideFlags: 0

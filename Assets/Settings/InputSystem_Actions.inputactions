@@ -40,7 +40,7 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false,
@@ -95,7 +95,6 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
-<<<<<<< HEAD
                 },
                 {
                     "name": "Shoot",
@@ -136,8 +135,6 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
-=======
->>>>>>> 8ba3cf62495ddabe40e337c3120bf761d6cd7664
                 }
             ],
             "bindings": [
@@ -500,17 +497,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "be4dbadc-d5cf-4284-aab4-42c34c979e6c",
-                    "path": "<Keyboard>/g",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
