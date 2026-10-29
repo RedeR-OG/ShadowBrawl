@@ -105,3 +105,19 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/Sprites Jonathan.meta
+Assets/Sprites Jonathan/50cal.png.meta
+Assets/Sprites Jonathan/Attack.png.meta
+Assets/Sprites Jonathan/BruteWalk.png.meta
+Assets/Sprites Jonathan/DrillBolt.png.meta
+Assets/Sprites Jonathan/ExplosiveBolt.png.meta
+Assets/Sprites Jonathan/HomingBall.png.meta
+Assets/Sprites Jonathan/PlayerIdle.png.meta
+Assets/Sprites Jonathan/PlayerJump.png.meta
+Assets/Sprites Jonathan/PlayerWalk.png.meta
+Assets/Sprites Jonathan/PunchCast.png.meta
+Assets/Sprites Jonathan/Soul.png.meta
+Assets/Sprites Jonathan/SpellCast.png.meta
+Assets/Sprites Jonathan/SplitribRock.png.meta
+Assets/Sprites Jonathan/SplitribSpit.png.meta
+Assets/Sprites Jonathan/SplitribWalk.png.meta
