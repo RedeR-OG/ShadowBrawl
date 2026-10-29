@@ -9,6 +9,8 @@ public class rangboi : MonoBehaviour
     public float chargeTime = 1.5f;
     private Transform player;
     private float chargeTimer;
+    public float moveSpeed = 3f;
+    public float aggroRange = 10f;
     private bool charging;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,9 +21,27 @@ public class rangboi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GetComponent<Rigidbody2D>().linearVelocity.magnitude > 0.1f)
+        {
+            GetComponent<Animator>().SetBool("walk", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("walk", false);
+        }
+        Vector2 enemyPosition = transform.position;
+        Vector2 playerPosition = player.position;
+        float distance = Vector2.Distance(enemyPosition, playerPosition);
+        if (distance > aggroRange)
+        {
+            return;
+        }
 
-        float distance = Vector2.Distance(transform.position, player.position);
-
+        if (distance > range)
+        {
+            //transform.position = Vector2.MoveTowards(enemyPosition, playerPosition, moveSpeed * Time.deltaTime);
+            GetComponent<Rigidbody2D>().linearVelocity = (playerPosition - enemyPosition).normalized * moveSpeed;
+        }
         if (distance > range)
         {
             charging = false;

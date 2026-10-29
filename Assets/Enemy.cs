@@ -18,17 +18,25 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GetComponent<Rigidbody2D>().linearVelocity.magnitude > 0.1f)
+        {
+            GetComponent<Animator>().SetBool("walk", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("walk", false);
+        }
         Vector2 enemyPosition = transform.position;
         Vector2 playerPosition = player.position;
         float distance = Vector2.Distance(enemyPosition, playerPosition);
 
-        if (distance > aggroRange)
-        {
-            return;
-        }
+
+
+        
+        
         if (distance > attackRange)
         {
-            transform.position = Vector2.MoveTowards(enemyPosition, playerPosition, moveSpeed * Time.deltaTime);
+            GetComponent<Rigidbody2D>().linearVelocity = (playerPosition - enemyPosition).normalized * moveSpeed;
         }
         else if (Time.time >= nextAttckTime)
         {
